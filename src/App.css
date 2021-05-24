@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+
+
+.App {
+  background-color: #333333;
+  background-image: url('https://fsb.zobj.net/crop.php?r=EQYsnVXDb6_SFJc0qcZDghMiMYuFGDrMOywjP-uebbpsWDUya3C07nY0pS5_sMY6iqpHlNHu8-az2W5FCpmU5smuVW7YiXMfQtEAonuuA29s4ce2ZD6U4idD3Pefwf5dEBNR2HBayua7h-Qt');
+  background-size: contain;
+  
+}
+
+.search {
+  float: right;
+  margin-left: 100px;
+  
+  
+}
+.nav {
+  margin-left: 50px;
+  font-size: larger;
+  color: blanchedalmond;
+  font-family:sans-serif;
+}
+.add {
+  display: flex;
+  flex-wrap: wrap;
+align-items: flex-end;
+margin-left:  500px; ;
+}
+.adding{
+  margin: 10px;
+  color: aliceblue;
+  font-family: fantasy;
+  font-size: 15px;
+}
+.typewriter {
+  font-size: 40px;
+  font-family: Faster One;
+}
+
+@media only screen and (max-width: 768px) {
+  .App {
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .search {
+    display: flex; 
+  }
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 10px;
+    color: blanchedalmond;
+    font-family:cursive;
+  }
+  .add {
+   float: right;
+   margin: 50px;
+  }
+  .typewriter {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    font-family: Faster One;
+  }
+  .mr-auto{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+}
+@media only screen and (max-width: 200px) {
+
+}
